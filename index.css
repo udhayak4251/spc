@@ -170,9 +170,14 @@ body {
     .menu {
         display: block;
     }
-    .header-divider {
-        height: 180px;
+    .display-menu {
+        display: none;
     }
+
+    .header-divider {
+        height: 40px;
+    }
+
     .menu-bar {
         display: block;
     }
