@@ -140,8 +140,9 @@ body {
     font-size: 24px;
     font-weight: 500;
     color: #333;
-    text-decoration: underline #82c138;
+    text-decoration: underline #82c138 solid;
     transition: 400ms;
+    display: block;
 }
 
 .product-child  p {
@@ -198,6 +199,14 @@ body {
     .header-contact-child {
         padding: 0px;
         margin: 0px 5px;
+    }
+
+    .p-sub-title {
+        text-align: center;
+    }
+
+    .p-title {
+        text-align: center;
     }
 
    }
