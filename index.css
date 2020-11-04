@@ -40,6 +40,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .menu {
@@ -156,3 +157,24 @@ body {
 .product-child img {
     width: 600px;
 }
+.menu-bar {
+    display: none;
+}
+
+/* mobile */
+@media screen and (max-width: 600px) {
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+    .header-divider {
+        height: 180px;
+    }
+    .menu-bar {
+        display: block;
+    }
+
+  }
